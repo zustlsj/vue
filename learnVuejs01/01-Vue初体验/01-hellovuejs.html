@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+{{message}}
+</div>
+<div>{{message}}}</div>
+<script src="../js/vue.js"></script>
+<script>
+    // let 变量  const 常量
+    //声明式编程
+    const app =new Vue({//创建一个vue对象
+        el:'#app',//用于挂在要管理得元素
+        data:{//定义数据
+            message: 'helloworld！'
+        }
+        })
+//    原生js：（命令式编程）
+    //    1创建div元素，设置id属性
+    //    2.定义一个变量叫message
+    //    3.将message变量放在前面得div元素中显示
+</script>
+</body>
+</html>
